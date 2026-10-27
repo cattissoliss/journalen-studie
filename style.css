@@ -107,3 +107,10 @@
 .registration{background:#f9eeeb}
 
 .contact-card{text-align:center!important}.contact-email{display:block;font-size:15px;margin-bottom:18px;overflow-wrap:anywhere;text-underline-offset:4px}.contact-card .button{display:flex;text-decoration:none}
+
+.eligibility-section{padding-top:40px;padding-bottom:40px}.eligibility-content{max-width:640px;margin-inline:auto}.eligibility-content h2{margin:0 0 20px}.eligibility-content ul{padding-left:22px;margin:0;font-size:15px;line-height:1.75;color:var(--muted)}.eligibility-content li+li{margin-top:8px}.eligibility-english{border-top:1px solid var(--line);margin-top:22px;padding-top:18px;color:var(--muted)}.eligibility-english h3{font-size:14px;margin:0 0 8px;font-weight:550}.eligibility-english p{font-size:13px;line-height:1.75;margin:0}@media(max-width:720px){.eligibility-section{padding-top:32px;padding-bottom:32px}}
+
+.interview-bubble{animation:participant-speaking 10s ease-in-out infinite}.interviewer-bubble{animation:interviewer-speaking 10s ease-in-out infinite}
+@keyframes participant-speaking{0%,42%,100%{opacity:1;transform:translateY(0)}50%,90%{opacity:.18;transform:translateY(3px)}}
+@keyframes interviewer-speaking{0%,42%,100%{opacity:.18;transform:translateY(3px)}50%,90%{opacity:1;transform:translateY(0)}}
+@media(prefers-reduced-motion:reduce){.interview-art *{animation:none!important}.interview-bubble,.interviewer-bubble{opacity:1}}
